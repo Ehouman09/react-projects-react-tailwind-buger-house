@@ -9,6 +9,9 @@ module.exports = {
         'primary': '#ffc045',
         'secondary': '#3d2514',
         'red-primary': '#bf2222',
+        'primary-hover': '#f5b029', 
+        'secondary-hover': '#231105', 
+        'red-prinary-hover': '#990e0e', 
       },
       fontFamily:{
         'secondary':['"Alfa Slab One"'],
