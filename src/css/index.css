@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Roboto';
+    @apply text-secondary
 }
 
 .animate{
@@ -20,4 +21,9 @@ body{
 
 .shadowTitleSecondary {
     text-shadow: 3px 3px #fee7ba;
+}
+
+
+p{
+    @apply mb-4;
 }

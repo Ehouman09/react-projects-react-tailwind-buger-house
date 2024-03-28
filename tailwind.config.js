@@ -15,6 +15,11 @@ module.exports = {
       },
       fontFamily:{
         'secondary':['"Alfa Slab One"'],
+      },
+      spacing: {
+        17: '4.25rem',
+        18: '4.50rem',
+        19: '4.75rem',
       }
     },
     
