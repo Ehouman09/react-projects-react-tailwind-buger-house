@@ -10,9 +10,9 @@ import Product3 from '../../../medias/images/products/product-3.jpg';
 export default function Products() {
   return (
     <Container>
-      <HeadingTitle variant="h3">Toujours des délicieuux burgers</HeadingTitle>
+      <HeadingTitle variant="h3" >Toujours des délicieuux burgers</HeadingTitle>
 
-      <Heading theme="secondary">Choisissez et savourez</Heading>
+      <Heading theme="secondary" className="my-5">Choisissez et savourez</Heading>
 
       <p className="text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac dolor
@@ -33,7 +33,7 @@ export default function Products() {
             />
           </div>
           <div className="flex flex-col items-center justify-center px-5 pb-5">
-            <Heading variant="h3" theme="secondary">
+            <Heading variant="h3" theme="secondary" className="my-5">
               Lorem ipsum dolor
             </Heading>
             <p className="text-center">
@@ -57,7 +57,7 @@ export default function Products() {
             />
           </div>
           <div className="flex flex-col items-center justify-center px-5 pb-5">
-            <Heading variant="h3" theme="secondary">
+            <Heading variant="h3" theme="secondary" className="my-5">
               Lorem ipsum dolor
             </Heading>
             <p className="text-center">
@@ -81,7 +81,7 @@ export default function Products() {
             />
           </div>
           <div className="flex flex-col items-center justify-center px-5 pb-5">
-            <Heading variant="h3" theme="secondary">
+            <Heading variant="h3" theme="secondary" className="my-5">
               Lorem ipsum dolor
             </Heading>
             <p className="text-center">
