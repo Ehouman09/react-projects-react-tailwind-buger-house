@@ -21,11 +21,11 @@ export default function Products() {
         vel orci vehicula consectetur.
       </p>
 
-      <div className="grid grid-cols-3 gap-x-1 my-20">
+      <div className="grid grid-cols-3 gap-x-1 mb-20 mt-10">
 
         <div className="w-full h-full">{/* Start col-1 */}
 
-          <div className="relative w-full h-96">
+          <div className="relative w-full h-72">
             <img
               className="bg-primary absolute top-0 left-0 w-full h-full object-cover z-0"
               src={ Product1 }
@@ -45,11 +45,11 @@ export default function Products() {
           </div>
         </div>
         {/* End col-1 */}
-
+ 
         <div className="w-full h-full">
           {/* Start col-2 */}
 
-          <div className="relative w-full h-96">
+          <div className="relative w-full h-72">
             <img
               className="bg-primary absolute top-0 left-0 w-full h-full object-cover z-0"
               src={ Product2 }
@@ -73,7 +73,7 @@ export default function Products() {
         <div className="w-full h-full">
           {/* Start col-3 */}
 
-          <div className="relative w-full h-96">
+          <div className="relative w-full h-72">
             <img
               className="bg-primary absolute top-0 left-0 w-full h-full object-cover z-0"
               src={ Product3 }
