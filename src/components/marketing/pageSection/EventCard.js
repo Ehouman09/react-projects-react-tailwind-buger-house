@@ -73,7 +73,6 @@ export default function EventCard() {
  </Slide>,
   ];
 
-  const number = [1, 2, 3, 4];
 
   return (
     <Container>
