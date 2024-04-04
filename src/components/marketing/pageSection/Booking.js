@@ -98,7 +98,7 @@ export default function Booking() {
                     autoComplete='off'
                     className='bg-red-primary hover:bg-red-primary-hover w-full text-white font-secondary tracking-widest uppercase py-5 cursor-pointer rounded-md animate'
                     placeholder='5'
-                    value="Réservez votre repas"
+                    value="Trouver une table"
                   />
                 </div>
 
